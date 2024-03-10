@@ -1,0 +1,55 @@
+/* style.css */
+
+.job-seeker-login-container {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-seeker-login-container h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .job-seeker-login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-seeker-login-container label {
+    margin-bottom: 5px;
+  }
+  
+  .job-seeker-login-container input[type="email"],
+  .job-seeker-login-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-seeker-login-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-seeker-login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-seeker-login-container .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .job-seeker-login-container .success-message {
+    color: green;
+    text-align: center;
+  }
+  
